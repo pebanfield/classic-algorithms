@@ -1,7 +1,7 @@
 var assert = require("assert");
 var solveMeFirst = require("../../solutions/warmup/solve-me-first.js");
 
-describe('Super Basic function return', function(){
+describe('Basic function return w/ JS scoping', function(){
   describe('sum', function(){
 
     it('should return the sum of two Number arguments', function(){

@@ -10,7 +10,7 @@
  * variable scoping that should be understood. I have included it in the test
  * suite coverage as it is a core aspect of the language.
  *
- * See test/warmup/solve-me-first.js
+ * See test/warmup/solve-me-first-spec.js
  *
  * Any serious JavaScript developer should understand this concept as it is
  * explained here -
