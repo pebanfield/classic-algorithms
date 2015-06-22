@@ -1,6 +1,8 @@
 /**
  * solve-me-second
  *
+ * https://www.hackerrank.com/challenges/solve-me-second
+ *
  * This module is mainly included to show how I deal with the standard hackerrank
  * input format.
  *
