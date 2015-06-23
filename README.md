@@ -11,3 +11,5 @@ see the comments -
 // write your code here.
 
 Also note that you will need to output the solution result to the console.
+In other words, the full solution is split into both the algorithm routine
+and it's accompanying test spec.

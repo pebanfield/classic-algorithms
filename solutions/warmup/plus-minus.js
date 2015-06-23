@@ -1,5 +1,9 @@
 /**
  * plus-minus
+ *
+ * https://www.hackerrank.com/challenges/plus-minus
+ *
+ *
  */
 function _calcFractions(array) {
 
@@ -18,20 +22,10 @@ function _calcFractions(array) {
     }
   }
 
-  var percentages = [];
-  percentages.push(Math.round(zero/array.length * 1000));
-  percentages.push(Math.round(negative/array.length * 1000));
-  percentages.push(Math.round(positive/array.length * 1000));
-
-  function sortDescending(a,b) {
-    return b-a;
-  }
-
-  percentages.sort(sortDescending);
-
-  for(var p=0; p<percentages.length; p++){
-    percentages[p] = "0."+percentages[p]
-  }
+  var percentages = {};
+  percentages.zeroPercentage = (zero/array.length).toPrecision(6);
+  percentages.negativePercentage = (negative/array.length).toPrecision(6);
+  percentages.positivePercentage = (positive/array.length).toPrecision(6);
 
   return percentages;
 }
